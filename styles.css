@@ -1,0 +1,11 @@
+* {
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root {
+    --verde_claro : #ADFF2F;
+    --marrom_claro: #DEB887;
+    --azul_claro: #00FFFF;
+}
