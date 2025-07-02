@@ -8,6 +8,10 @@
     --verde_claro : #ADFF2F;
     --marrom_claro: #DEB887;
     --azul_claro: #00FFFF;
+    --branco:var(--branco);
+    --verde : #008000;
+    --marrom : #A0522D;
+    --azul : #0000CD;
 }
 
 body{
@@ -61,4 +65,10 @@ main {
 .pratos:hover {
     transform: translateY(-10px) scale(1.05);
     box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.pratos a {
+    color: var(--verde);
+    font-size: 5rem;
+    text-decoration: none;
 }
