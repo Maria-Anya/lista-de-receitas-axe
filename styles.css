@@ -9,3 +9,30 @@
     --marrom_claro: #DEB887;
     --azul_claro: #00FFFF;
 }
+
+body{
+    height: 50vh;
+    box-sizing: border-box;
+    background-color: var(--marrom_claro);
+    color: var(--verde_claro);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex; 
+    width: 100%;
+    background-color: var(--azul_claro);
+    padding: 1rem;
+    justify-content: center;
+}
+
+.portfolio h1{
+    font-size: 4rem;
+    color: var(--marrom_claro);
+}
+
+main {
+    margin: 35px auto;
+    padding: 30px;
+}
